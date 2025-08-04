@@ -26,18 +26,6 @@ function Education() {
               Bachelor of Management
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2018 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faSchool} />}
-          >
-            <h3 className="vertical-timeline-element-title">SMAN 108 Jakarta Selatan</h3>
-            <h4 className="vertical-timeline-element-subtitle">Jakarta, Indonesia</h4>
-            <p>
-              Social Major
-            </p>
-          </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </div>
