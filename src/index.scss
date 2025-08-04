@@ -63,6 +63,9 @@ p, a, h1, h2, h3, h4, h5, label, button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media (min-width: 768px) {
+    margin-top: 0px;
+  }
 }
 
 .header-image {

@@ -1,41 +1,41 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faSchool, faSchoolCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 
-function Timeline() {
+function Education() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Education History</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2024"
+            date="2021 - 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faSchool} />}
           >
-            <h3 className="vertical-timeline-element-title">Direktorat Jenderal Bea dan Cukai (Intern)</h3>
-            <h4 className="vertical-timeline-element-subtitle">Jakarta, Indonesia</h4>
+            <h3 className="vertical-timeline-element-title">Universitas Negeri Semarang</h3>
+            <h4 className="vertical-timeline-element-subtitle">Semarang, Indonesia</h4>
             <p>
-              Public Relations Media team
+              Bachelor of Management
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - Now"
+            date="2018 - 2021"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faSchool} />}
           >
-            <h3 className="vertical-timeline-element-title">Deli Baru (Family Business)</h3>
+            <h3 className="vertical-timeline-element-title">SMAN 108 Jakarta Selatan</h3>
             <h4 className="vertical-timeline-element-subtitle">Jakarta, Indonesia</h4>
             <p>
-              Accountant
+              Social Major
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
@@ -44,4 +44,4 @@ function Timeline() {
   );
 }
 
-export default Timeline;
+export default Education;
