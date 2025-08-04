@@ -8,7 +8,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src={require('../assets/images/pop.jpeg')} alt="Avatar" />
+          <img src={require('../assets/images/good.jpg')} alt="Avatar" />
         </div>
         <div className="content">
           <div className="social_icons">
