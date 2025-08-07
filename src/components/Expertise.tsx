@@ -14,7 +14,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPerson} size="3x"/>
                     <h3>About me</h3>
-                    <p>My name is Ratu Aulia Miftah, and I am a recent graduate in Economics from Universitas Negeri Semarang. I have an interest in various fields, such as digital marketing, social media administration, and content creation. I am dedicated to leveraging my solid foundation in Economics and my enthusiasm for creative pursuits and digital marketing strategies to make impactful contributions in my chosen professional sphere. I am adept at following established procedures while also prepared to deliver substantial and innovative contributions.
+                    <p>My name is Ratu Aulia Miftah, and I am a recent graduate in Economics from Universitas Negeri Semarang. I have an interest in various fields, such as digital marketing, social media administration, and content creation.
                     </p>
                 </div>
 

@@ -3,6 +3,7 @@ import ss1 from '../assets/images/ss1.png';
 import ss2 from '../assets/images/ss2.png';
 import ss3 from '../assets/images/ss3.png';
 import ss4 from '../assets/images/ss4.png';
+import ss5 from '../assets/images/ss5.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -27,13 +28,14 @@ function Project() {
             </div>
             <div className="project">
                 <a href="http://www.tiktok.com/@quinalexandra" target="_blank" rel="noreferrer"><img src={ss3} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="http://www.tiktok.com/@quinalexandra" target="_blank" rel="noreferrer"><img src={ss5} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="http://www.tiktok.com/@quinalexandra" target="_blank" rel="noreferrer"><h2>TikTok</h2></a>
-                <p>My personal TikTok account for my personal branding page.</p>
+                <p>This is my personal TikTok, a key part of my digital personal branding strategy. I use this platform to share engaging and authentic content, from daily vlogs to creative projects. It's where I cultivate a community around my interests, demonstrating my ability to build a presence and connect with a diverse audience through engaging and relatable storytelling.</p>
             </div>
             <div className="project">
                 <a href="https://www.instagram.com/ratuamff" target="_blank" rel="noreferrer"><img src={ss4} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.instagram.com/ratuamff" target="_blank" rel="noreferrer"><h2>Instagram</h2></a>
-                <p>My personal Instagram account for my personal branding page.</p>
+                <p>This is my personal brand page on Instagram. I use it as a creative outlet to share visual stories about my work, my interests, and my daily life. It's a space where I connect with a growing community and express my creativity through engaging and authentic content.</p>
             </div>
         </div>
     </div>
